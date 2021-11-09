@@ -1,0 +1,16 @@
+/* .destination{
+    background: url('https://thumbs.dreamstime.com/b/golden-temple-night-amritsar-india-harmandir-sahib-also-darbar-sahib-punjab-50428880.jpg');
+} */
+.tour{
+    color: lightcoral;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+}
+.img:hover{
+    background-color: rgba(68, 63, 63, 0.103);
+}

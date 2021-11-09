@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Brazil",
+        "description":"Visit the vast Serengeti national park inspiring wildebeest migration, climb Kilimanjaro. Our Tanzania Tours & Safari Styles. Climb Kilimanjaro. ",
+        "price": "450",
+        "img":"https://www.responsibletravel.com/imagesClient/S_152422.jpg"
+    },
+    {
+        "name":"Panorama",
+        "description": "Panorama Destination is a leading, Indonesian Inbound Tour Operator or Destination Management Company with branches throughout the archipelago. ",
+        "price": "390",
+        "img": "https://c8.alamy.com/comp/W698P5/panorama-cityscape-of-famous-tourist-destination-budapest-with-danube-parliament-and-bridges-travel-illuminated-landscape-in-hungary-europe-W698P5.jpg"
+    },
+    {
+        "name":"Canada",
+        "description": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean,",
+        "price": "540",
+        "img": "https://img.traveltriangle.com/attachments/pictures/893625/original/Vancouver-at-night_-Vancouver.jpg"
+    },
+    {
+        "name":"Italy",
+        "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark. Its capital, Rome, is home to the Vatican landmark art and ancient ruins.",
+        "price": "290",
+        "img": "https://www.planetware.com/photos-large/I/italy-itineraries-venice-gondola.jpg"
+    },
+    {
+        "name":"Philippines",
+        "description": "The Philippines, officially the Republic of the Philippines, is an archipelagic island country in Southeast Asia. It is situated in the western Pacific Ocean.",
+        "price": "333",
+        "img": "https://myeasol.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWsyWmpRMlpEWmlZUzA1TTJNMExUUTFaakF0WWpoaU1DMWlOalppTnpOaVlUTTROMllHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--258bd10cce801c07b56dc0f8d2b8e6d2ddebcfdf/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxhUUxRQWc9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--99cf083f9101fcb9cfc99145100dc96c47de9da2/Puerto%20Princesa%20Philippines%20lagoon%20with%20woman%20swimming.jpeg"
+    },
+    {
+        "name":"Cuba",
+        "description": "Cuba, officially the Republic of Cuba, is a country comprising the island of Cuba, as well as Isla de la Juventud and several minor archipelagos.",
+        "price": "431",
+        "img": "https://www.planetware.com/photos-large/CUB/cuba-old-havana.jpg"
+    }
+]

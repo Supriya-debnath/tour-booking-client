@@ -1,0 +1,12 @@
+.contact-container{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.contact-us{
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+.contact{
+    background: url('https://p0.pikist.com/photos/300/3/golden-temple-amritsar-golden-temple-golden-gate-bridge-temples-blur-background-sahib-heritage-famous-grain.jpg');
+    align-items: center;
+}

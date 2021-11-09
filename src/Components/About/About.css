@@ -1,0 +1,11 @@
+.about{
+    background: url('https://lh3.googleusercontent.com/proxy/zLL6l-eNv69Knk7n_6Bnx94ZSbAgdLYRPJa1NCuoJAhTFDM45FynmSrXCKwL4ZTGQP3hlXS6EKiMh8TSxtREQVvTI4RDHmwFQHsji90PxZa4eyKm7RHtyWdyChPW_Qr4lbgMgyrSm7Po-A');
+    height: 400px;
+}
+.about_us{
+    font-size: 40px;
+    padding: 50px;
+}
+.about_us:hover{
+    color: brown;
+}
