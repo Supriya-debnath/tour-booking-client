@@ -11,7 +11,7 @@ Hosting: Heroku(API), firebase(site).
 About - Tour-booking
 Easy to use
 Fully Authentication supported
-Google and Email Password log in
+Google log in
 Mobile Responsive
 Single Page application
 User booking system
@@ -20,3 +20,4 @@ All booking manage system
 package/services manage system
 
 Live site visit  here : https://tour-booking-c651a.web.app/
+server-side repo : https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Supriya-debnath
