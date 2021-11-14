@@ -19,5 +19,4 @@ User My booking system
 All booking manage system
 package/services manage system
 
-Live site
-Visit Medicoz here : https://tour-booking-c651a.web.app/
+Live site visit  here : https://tour-booking-c651a.web.app/
