@@ -20,7 +20,8 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user);
                 history.push(location.state?.from)
-                // sessionStorage.setItem("email", result.user.email);
+                sessionStorage.setItem("email", result.user.email);
+                console.log(result.user.email);
 
             })
             .finally(() => setIsLoading(false));

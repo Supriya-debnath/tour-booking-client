@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import { useParams } from 'react-router';
+import { useHistory, useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 import './Booking.css';
 
@@ -22,6 +22,7 @@ const Booking = () => {
     }, [])
 
     const { register, handleSubmit } = useForm();
+    const history = useHistory();
     const onSubmit = data => {
       console.log(data);
         fetch('https://pure-headland-36785.herokuapp.com/confirmOrder', {
@@ -32,7 +33,11 @@ const Booking = () => {
             body: JSON.stringify(data),
         })
         .then(res=>res.json())
-        .then((result) => console.log(result));
+        .then((result) => {
+          if(result.insertedId){
+            history.push("/myBooking")
+          }
+        });
 
       console.log(data)
     };
@@ -89,7 +94,7 @@ const Booking = () => {
 
             {name &&
               <input type="text" {...register("title")} 
-              // readOnly
+              readOnly
               defaultValue={name}
               className="p-2 m-2 w-100"
               />
@@ -97,7 +102,7 @@ const Booking = () => {
 
             {price &&
               <input type="number" {...register("price")} 
-              // readOnly
+              readOnly
               defaultValue={price}
               className="p-2 m-2 w-100"
               />

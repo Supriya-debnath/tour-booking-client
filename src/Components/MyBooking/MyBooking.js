@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -7,15 +8,18 @@ const MyBooking = () => {
 
   const [bookings, setBookings] = useState([]);
   const email = sessionStorage.getItem('email');
+  console.log(email);
 
-  useEffect(() => {
+  useEffect( () => {
     fetch(`https://pure-headland-36785.herokuapp.com/booking/${email}`)
     .then(res => res.json())
     .then((data) => {
       console.log(data);
       setBookings(data);
     })
-  }, [])
+  }, [email]);
+
+
 
 
 
